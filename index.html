@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6e0d9f29ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <span class="navbar-brand mb-0 h1" style="padding-right: 1120px;"><i class="fa-brands fa-instagram"></i>instagram</span>
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Create a new Post
+                    </button>
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                          <li><a class="dropdown-item" href="#">Privacy adn data</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" style="color: red;" href="#">log out</a></li>
+                        </ul>
+                      </div>
+                      
+                      
+                    </div>
+                   
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+            <i class="fa-solid fa-table-cells"></i>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+            <i class="fa-solid fa-square"></i>
+            </button>
+        </li>
+        
+       
+    </ul>
+      
+        <div class="tab-content d-flex justify-content-center" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            
+            <div class="row justify-content-between">
+                <div class="col-4 img">
+                    <img class="rounded-4 image"  src="https://picsum.photos/id/237/536/354" alt="">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://i.redd.it/jeuusd992wd41.jpg" alt="responsive image">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://cdn.cloudflare.steamstatic.com/steam/apps/1462570/ss_ac25277f95e6dde71a5ddafd933edbd78f0b409c.1920x1080.jpg?t=1662047426" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://thumbs.dreamstime.com/b/random-word-concept-cubes-171151178.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://cdn.codespeedy.com/wp-content/uploads/2020/01/low.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://upload.wikimedia.org/wikipedia/en/3/3d/Random_%28Marvel_character%29.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkZFtytms073Aagxoe8DdLxpBtGVR_T576Q&usqp=CAU" alt="">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFpCOW-8yzegmvS7Nf_Lg98UuAfIoEE-nQA&usqp=CAU" alt="">
+                </div>
+                <div class="col-4">
+                    <img class="rounded-4 image" src="http://images2.fanpop.com/image/photos/8600000/random-animals-animals-8675984-377-442.jpg" alt="">
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            
+                    <div class="card" style="width: 35rem;">
+                        <div class="cardHeader"><h4>this ma dog raight here </h4> <span>3/17</span>
+                        </div>
+                       
+                                           
+                        <img src="https://picsum.photos/id/237/536/354" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <div class="card" style="width: 35rem;">
+                        <div class="cardHeader"><h4>this ma duck right here </h4> <span>3/17</span>
+                        </div>
+                       
+                                           
+                        <img src="https://i.redd.it/jeuusd992wd41.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <div class="card" style="width: 35rem;">
+                        <div class="cardHeader"><h4>this ma dice right here </h4> <span>3/17</span>
+                        </div>
+                       
+                                           
+                        <img src="https://thumbs.dreamstime.com/b/random-word-concept-cubes-171151178.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <div class="card" style="width: 35rem;">
+                        <div class="cardHeader"><h4>this ma pic right here </h4> <span>3/17</span>
+                        </div>
+                       
+                                           
+                        <img src="https://cdn.codespeedy.com/wp-content/uploads/2020/01/low.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <div class="card" style="width: 35rem;">
+                        <div class="cardHeader"><h4>this ma frien right here</h4> <span>3/17</span>
+                        </div>
+                       
+                                           
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAkZFtytms073Aagxoe8DdLxpBtGVR_T576Q&usqp=CAU" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+            </div>
+                
+       </div>
+      
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-auto-open>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                    Create a new Post
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>caption:</p>
+                <input type="text" placeholder="Add the caption of your post here" style="width: 100%; height: 60px;">
+                <button class="rounded-3" style="margin-top: 20px; margin-right: 5px;"><i class="fa-solid fa-location-dot"></i></button>
+                <button class="rounded-3"><i class="fa-solid fa-image"></i></button>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+                    Publish
+                </button>
+                <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">
+                    Post
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+           
+            
+
+
+
+        
+        
+          
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
